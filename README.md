@@ -1,4 +1,4 @@
-# RobotArm
+# Robot-Arm
 
 WIP project for controlling a 5 DOF robotic arm with computer vision.
 

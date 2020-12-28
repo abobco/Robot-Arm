@@ -1,3 +1,5 @@
+# Image processing steps:
+
 1. Receive a photo from the raspberry pi via a local area network TCP socket for processing
 2. Find a known, flat pattern that lies on the same plane as the target object(a checkerboard on the floor)
 3. Using the distortion of features found on the checkerboard pattern, solve for the homography matrix between the camera's viewing plane and the floor. This will allow us to find the distance vector (in milimeters) from a stationary point on the checkerboard to an object that rests on the floor.

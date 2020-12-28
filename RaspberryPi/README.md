@@ -1,1 +1,1 @@
-All programs that run on the raspberry pi are here. The source code for the program driving the arm in the example video can be found [here](src/arducam_lws.cpp)
+All programs that run on the raspberry pi are here. The source code for the program driving the arm in the example video can be found in [src/arducam_lws.cpp](src/arducam_lws.cpp)
