@@ -18,5 +18,5 @@ The basic process:
 
 This project uses the following libraries:
 * OpenCV - Image processing, computer vision algorithms
-* Darknet - "You Only Look Once" object recognition convolutional neural network
+* Darknet - convolutional neural network for object classification in images
 * Pigpio - Raspberry pi gpio library
