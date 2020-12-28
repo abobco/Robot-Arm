@@ -1,0 +1,8 @@
+﻿  StreamTest.cpp
+D:\Code\C++\OpenCV projects\XNlib\include\xn_yolo.hpp(35,13): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  Generating code
+  0 of 11234 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  RobotController.vcxproj -> D:\Code\C++\OpenCV projects\RobotController\x64\Release\RobotController.exe

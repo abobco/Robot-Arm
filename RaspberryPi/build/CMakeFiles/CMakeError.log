@@ -1,0 +1,1951 @@
+Performing C SOURCE FILE Test HAS_LWS_ROLE_WS failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e49f4/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e49f4.dir/build.make CMakeFiles/cmTC_e49f4.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e49f4.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc   -Wall -g  -Wall -g  -DHAS_LWS_ROLE_WS   -o CMakeFiles/cmTC_e49f4.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:27: fatal error: libwebsockets.h: No such file or directory
+ #include <libwebsockets.h>
+                           ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_e49f4.dir/build.make:66: CMakeFiles/cmTC_e49f4.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_e49f4/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <libwebsockets.h>
+int main(void) {
+#if defined(LWS_ROLE_WS)
+ return 0;
+#else
+ fail;
+#endif
+ return 0;
+}
+
+Performing C SOURCE FILE Test HAS_LWS_ROLE_WS failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_576c5/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_576c5.dir/build.make CMakeFiles/cmTC_576c5.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_576c5.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc   -Wall -g  -Wall -g  -DHAS_LWS_ROLE_WS   -o CMakeFiles/cmTC_576c5.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:27: fatal error: libwebsockets.h: No such file or directory
+ #include <libwebsockets.h>
+                           ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_576c5.dir/build.make:66: CMakeFiles/cmTC_576c5.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_576c5/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <libwebsockets.h>
+int main(void) {
+#if defined(LWS_ROLE_WS)
+ return 0;
+#else
+ fail;
+#endif
+ return 0;
+}
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55dfd/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_55dfd.dir/build.make CMakeFiles/cmTC_55dfd.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55dfd.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=_snprintf   -o CMakeFiles/cmTC_55dfd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_55dfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55dfd.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=_snprintf    -rdynamic CMakeFiles/cmTC_55dfd.dir/CheckFunctionExists.c.o  -o cmTC_55dfd 
+CMakeFiles/cmTC_55dfd.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_snprintf'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_55dfd.dir/build.make:87: cmTC_55dfd] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_55dfd/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _vsnprintf exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2504/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f2504.dir/build.make CMakeFiles/cmTC_f2504.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2504.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=_vsnprintf   -o CMakeFiles/cmTC_f2504.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2504
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2504.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=_vsnprintf    -rdynamic CMakeFiles/cmTC_f2504.dir/CheckFunctionExists.c.o  -o cmTC_f2504 
+CMakeFiles/cmTC_f2504.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_vsnprintf'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_f2504.dir/build.make:87: cmTC_f2504] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_f2504/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _atoi64 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7267e/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7267e.dir/build.make CMakeFiles/cmTC_7267e.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7267e.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=_atoi64   -o CMakeFiles/cmTC_7267e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7267e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7267e.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=_atoi64    -rdynamic CMakeFiles/cmTC_7267e.dir/CheckFunctionExists.c.o  -o cmTC_7267e 
+CMakeFiles/cmTC_7267e.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_atoi64'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_7267e.dir/build.make:87: cmTC_7267e] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_7267e/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _stat32i64 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50257/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_50257.dir/build.make CMakeFiles/cmTC_50257.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50257.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=_stat32i64   -o CMakeFiles/cmTC_50257.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_50257
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50257.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=_stat32i64    -rdynamic CMakeFiles/cmTC_50257.dir/CheckFunctionExists.c.o  -o cmTC_50257 
+CMakeFiles/cmTC_50257.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_stat32i64'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_50257.dir/build.make:87: cmTC_50257] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_50257/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6319c/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6319c.dir/build.make CMakeFiles/cmTC_6319c.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6319c.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_6319c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6319c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6319c.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_6319c.dir/CheckFunctionExists.c.o  -o cmTC_6319c 
+CMakeFiles/cmTC_6319c.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `clock_gettime'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_6319c.dir/build.make:87: cmTC_6319c] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_6319c/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file in6addr.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d89a/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5d89a.dir/build.make CMakeFiles/cmTC_5d89a.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d89a.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g     -o CMakeFiles/cmTC_5d89a.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: in6addr.h: No such file or directory
+ #include <in6addr.h>
+                     ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_5d89a.dir/build.make:66: CMakeFiles/cmTC_5d89a.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_5d89a/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54516/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_54516.dir/build.make CMakeFiles/cmTC_54516.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54516.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g     -o CMakeFiles/cmTC_54516.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: sys/sockio.h: No such file or directory
+ #include <sys/sockio.h>
+                        ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_54516.dir/build.make:66: CMakeFiles/cmTC_54516.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_54516/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9fb8/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e9fb8.dir/build.make CMakeFiles/cmTC_e9fb8.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9fb8.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g     -o CMakeFiles/cmTC_e9fb8.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: vfork.h: No such file or directory
+ #include <vfork.h>
+                   ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_e9fb8.dir/build.make:66: CMakeFiles/cmTC_e9fb8.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_e9fb8/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/capability.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35157/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_35157.dir/build.make CMakeFiles/cmTC_35157.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35157.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g     -o CMakeFiles/cmTC_35157.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: sys/capability.h: No such file or directory
+ #include <sys/capability.h>
+                            ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_35157.dir/build.make:66: CMakeFiles/cmTC_35157.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_35157/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cap_set_flag exists in the cap failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e90c5/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e90c5.dir/build.make CMakeFiles/cmTC_e90c5.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e90c5.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=cap_set_flag   -o CMakeFiles/cmTC_e90c5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e90c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e90c5.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g  -Wall -g  -DCHECK_FUNCTION_EXISTS=cap_set_flag    -rdynamic CMakeFiles/cmTC_e90c5.dir/CheckFunctionExists.c.o  -o cmTC_e90c5 -lcap 
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/../lib/gcc/arm-linux-gnueabihf/4.8.3/../../../../arm-linux-gnueabihf/bin/ld: cannot find -lcap
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_e90c5.dir/build.make:87: cmTC_e90c5] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_e90c5/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file openssl/ecdh.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75d22/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_75d22.dir/build.make CMakeFiles/cmTC_75d22.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75d22.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -pthread   -o CMakeFiles/cmTC_75d22.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:26: fatal error: openssl/ecdh.h: No such file or directory
+ #include <openssl/ecdh.h>
+                          ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_75d22.dir/build.make:66: CMakeFiles/cmTC_75d22.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_75d22/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_CTX_set1_param exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a197/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4a197.dir/build.make CMakeFiles/cmTC_4a197.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a197.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set1_param -pthread   -o CMakeFiles/cmTC_4a197.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a197.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set1_param -pthread    -rdynamic CMakeFiles/cmTC_4a197.dir/CheckFunctionExists.c.o  -o cmTC_4a197 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_4a197.dir/build.make:89: cmTC_4a197] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_4a197/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_set_info_callback exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9d8f/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f9d8f.dir/build.make CMakeFiles/cmTC_f9d8f.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9d8f.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_info_callback -pthread   -o CMakeFiles/cmTC_f9d8f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f9d8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9d8f.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_info_callback -pthread    -rdynamic CMakeFiles/cmTC_f9d8f.dir/CheckFunctionExists.c.o  -o cmTC_f9d8f -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_f9d8f.dir/build.make:89: cmTC_f9d8f] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_f9d8f/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function X509_VERIFY_PARAM_set1_host exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5e9c/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b5e9c.dir/build.make CMakeFiles/cmTC_b5e9c.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5e9c.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=X509_VERIFY_PARAM_set1_host -pthread   -o CMakeFiles/cmTC_b5e9c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5e9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5e9c.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=X509_VERIFY_PARAM_set1_host -pthread    -rdynamic CMakeFiles/cmTC_b5e9c.dir/CheckFunctionExists.c.o  -o cmTC_b5e9c -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_b5e9c.dir/build.make:89: cmTC_b5e9c] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_b5e9c/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function RSA_set0_key exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f01dd/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f01dd.dir/build.make CMakeFiles/cmTC_f01dd.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f01dd.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=RSA_set0_key -pthread   -o CMakeFiles/cmTC_f01dd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f01dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f01dd.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=RSA_set0_key -pthread    -rdynamic CMakeFiles/cmTC_f01dd.dir/CheckFunctionExists.c.o  -o cmTC_f01dd -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_f01dd.dir/build.make:89: cmTC_f01dd] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_f01dd/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function X509_get_key_usage exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48c98/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_48c98.dir/build.make CMakeFiles/cmTC_48c98.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48c98.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=X509_get_key_usage -pthread   -o CMakeFiles/cmTC_48c98.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48c98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48c98.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=X509_get_key_usage -pthread    -rdynamic CMakeFiles/cmTC_48c98.dir/CheckFunctionExists.c.o  -o cmTC_48c98 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_48c98.dir/build.make:89: cmTC_48c98] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_48c98/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_PKEY_new_raw_private_key exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71872/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_71872.dir/build.make CMakeFiles/cmTC_71872.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71872.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_PKEY_new_raw_private_key -pthread   -o CMakeFiles/cmTC_71872.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_71872
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71872.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_PKEY_new_raw_private_key -pthread    -rdynamic CMakeFiles/cmTC_71872.dir/CheckFunctionExists.c.o  -o cmTC_71872 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_71872.dir/build.make:89: cmTC_71872] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_71872/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_CTX_get0_certificate exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_effcc/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_effcc.dir/build.make CMakeFiles/cmTC_effcc.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_effcc.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_get0_certificate -pthread   -o CMakeFiles/cmTC_effcc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_effcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_effcc.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_get0_certificate -pthread    -rdynamic CMakeFiles/cmTC_effcc.dir/CheckFunctionExists.c.o  -o cmTC_effcc -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_effcc.dir/build.make:89: cmTC_effcc] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_effcc/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_get0_alpn_selected exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36cbb/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_36cbb.dir/build.make CMakeFiles/cmTC_36cbb.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36cbb.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_get0_alpn_selected -pthread   -o CMakeFiles/cmTC_36cbb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36cbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36cbb.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_get0_alpn_selected -pthread    -rdynamic CMakeFiles/cmTC_36cbb.dir/CheckFunctionExists.c.o  -o cmTC_36cbb -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_36cbb.dir/build.make:89: cmTC_36cbb] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_36cbb/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_set_alpn_protos exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a53c3/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a53c3.dir/build.make CMakeFiles/cmTC_a53c3.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a53c3.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_alpn_protos -pthread   -o CMakeFiles/cmTC_a53c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a53c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a53c3.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_alpn_protos -pthread    -rdynamic CMakeFiles/cmTC_a53c3.dir/CheckFunctionExists.c.o  -o cmTC_a53c3 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_a53c3.dir/build.make:89: cmTC_a53c3] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_a53c3/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_aes_128_cfb8 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb4f2/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bb4f2.dir/build.make CMakeFiles/cmTC_bb4f2.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb4f2.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_cfb8 -pthread   -o CMakeFiles/cmTC_bb4f2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb4f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb4f2.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_cfb8 -pthread    -rdynamic CMakeFiles/cmTC_bb4f2.dir/CheckFunctionExists.c.o  -o cmTC_bb4f2 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_bb4f2.dir/build.make:89: cmTC_bb4f2] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_bb4f2/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_aes_128_cfb128 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_320c3/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_320c3.dir/build.make CMakeFiles/cmTC_320c3.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_320c3.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_cfb128 -pthread   -o CMakeFiles/cmTC_320c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_320c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_320c3.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_cfb128 -pthread    -rdynamic CMakeFiles/cmTC_320c3.dir/CheckFunctionExists.c.o  -o cmTC_320c3 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_320c3.dir/build.make:89: cmTC_320c3] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_320c3/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_aes_192_cfb8 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_990df/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_990df.dir/build.make CMakeFiles/cmTC_990df.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_990df.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_192_cfb8 -pthread   -o CMakeFiles/cmTC_990df.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_990df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_990df.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_192_cfb8 -pthread    -rdynamic CMakeFiles/cmTC_990df.dir/CheckFunctionExists.c.o  -o cmTC_990df -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_990df.dir/build.make:89: cmTC_990df] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_990df/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_aes_192_cfb128 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bca34/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bca34.dir/build.make CMakeFiles/cmTC_bca34.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bca34.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_192_cfb128 -pthread   -o CMakeFiles/cmTC_bca34.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bca34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bca34.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_192_cfb128 -pthread    -rdynamic CMakeFiles/cmTC_bca34.dir/CheckFunctionExists.c.o  -o cmTC_bca34 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_bca34.dir/build.make:89: cmTC_bca34] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_bca34/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_aes_256_cfb8 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06255/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_06255.dir/build.make CMakeFiles/cmTC_06255.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06255.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_256_cfb8 -pthread   -o CMakeFiles/cmTC_06255.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_06255
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06255.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_256_cfb8 -pthread    -rdynamic CMakeFiles/cmTC_06255.dir/CheckFunctionExists.c.o  -o cmTC_06255 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_06255.dir/build.make:89: cmTC_06255] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_06255/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_aes_256_cfb128 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_969a8/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_969a8.dir/build.make CMakeFiles/cmTC_969a8.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_969a8.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_256_cfb128 -pthread   -o CMakeFiles/cmTC_969a8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_969a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_969a8.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_256_cfb128 -pthread    -rdynamic CMakeFiles/cmTC_969a8.dir/CheckFunctionExists.c.o  -o cmTC_969a8 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_969a8.dir/build.make:89: cmTC_969a8] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_969a8/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_aes_128_xts exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cfc46/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cfc46.dir/build.make CMakeFiles/cmTC_cfc46.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfc46.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_xts -pthread   -o CMakeFiles/cmTC_cfc46.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cfc46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfc46.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_xts -pthread    -rdynamic CMakeFiles/cmTC_cfc46.dir/CheckFunctionExists.c.o  -o cmTC_cfc46 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_cfc46.dir/build.make:89: cmTC_cfc46] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_cfc46/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function RSA_verify_pss_mgf1 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3959/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f3959.dir/build.make CMakeFiles/cmTC_f3959.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3959.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=RSA_verify_pss_mgf1 -pthread   -o CMakeFiles/cmTC_f3959.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3959
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3959.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=RSA_verify_pss_mgf1 -pthread    -rdynamic CMakeFiles/cmTC_f3959.dir/CheckFunctionExists.c.o  -o cmTC_f3959 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_f3959.dir/build.make:89: cmTC_f3959] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_f3959/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function HMAC_CTX_new exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_285cf/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_285cf.dir/build.make CMakeFiles/cmTC_285cf.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_285cf.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=HMAC_CTX_new -pthread   -o CMakeFiles/cmTC_285cf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_285cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_285cf.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=HMAC_CTX_new -pthread    -rdynamic CMakeFiles/cmTC_285cf.dir/CheckFunctionExists.c.o  -o cmTC_285cf -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_285cf.dir/build.make:89: cmTC_285cf] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_285cf/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SSL_CTX_set_ciphersuites exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_571a4/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_571a4.dir/build.make CMakeFiles/cmTC_571a4.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_571a4.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set_ciphersuites -pthread   -o CMakeFiles/cmTC_571a4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_571a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_571a4.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set_ciphersuites -pthread    -rdynamic CMakeFiles/cmTC_571a4.dir/CheckFunctionExists.c.o  -o cmTC_571a4 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_571a4.dir/build.make:89: cmTC_571a4] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_571a4/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test LWS_HAVE_SSL_EXTRA_CHAIN_CERTS failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6e8b/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d6e8b.dir/build.make CMakeFiles/cmTC_d6e8b.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6e8b.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DLWS_HAVE_SSL_EXTRA_CHAIN_CERTS -pthread   -o CMakeFiles/cmTC_d6e8b.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:25: fatal error: openssl/ssl.h: No such file or directory
+ #include <openssl/ssl.h>
+                         ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_d6e8b.dir/build.make:66: CMakeFiles/cmTC_d6e8b.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_d6e8b/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <openssl/ssl.h>
+int main(void) { STACK_OF(X509) *c = NULL; SSL_CTX *ctx = NULL; return (int)SSL_CTX_get_extra_chain_certs_only(ctx, &c); }
+
+Performing C SOURCE FILE Test LWS_HAVE_EVP_MD_CTX_free failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2627f/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2627f.dir/build.make CMakeFiles/cmTC_2627f.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2627f.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DLWS_HAVE_EVP_MD_CTX_free -pthread   -o CMakeFiles/cmTC_2627f.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:25: fatal error: openssl/ssl.h: No such file or directory
+ #include <openssl/ssl.h>
+                         ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_2627f.dir/build.make:66: CMakeFiles/cmTC_2627f.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_2627f/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <openssl/ssl.h>
+int main(void) { EVP_MD_CTX *md_ctx = NULL; EVP_MD_CTX_free(md_ctx); return 0; }
+
+Determining if the function ECDSA_SIG_set0 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c2e5/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7c2e5.dir/build.make CMakeFiles/cmTC_7c2e5.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c2e5.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=ECDSA_SIG_set0 -pthread   -o CMakeFiles/cmTC_7c2e5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c2e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c2e5.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=ECDSA_SIG_set0 -pthread    -rdynamic CMakeFiles/cmTC_7c2e5.dir/CheckFunctionExists.c.o  -o cmTC_7c2e5 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_7c2e5.dir/build.make:89: cmTC_7c2e5] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_7c2e5/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function BN_bn2binpad exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_916b7/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_916b7.dir/build.make CMakeFiles/cmTC_916b7.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_916b7.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=BN_bn2binpad -pthread   -o CMakeFiles/cmTC_916b7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_916b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_916b7.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=BN_bn2binpad -pthread    -rdynamic CMakeFiles/cmTC_916b7.dir/CheckFunctionExists.c.o  -o cmTC_916b7 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_916b7.dir/build.make:89: cmTC_916b7] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_916b7/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_aes_128_wrap exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecb8a/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ecb8a.dir/build.make CMakeFiles/cmTC_ecb8a.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecb8a.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_wrap -pthread   -o CMakeFiles/cmTC_ecb8a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ecb8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecb8a.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_wrap -pthread    -rdynamic CMakeFiles/cmTC_ecb8a.dir/CheckFunctionExists.c.o  -o cmTC_ecb8a -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_ecb8a.dir/build.make:89: cmTC_ecb8a] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_ecb8a/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EC_POINT_get_affine_coordinates exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_681ff/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_681ff.dir/build.make CMakeFiles/cmTC_681ff.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_681ff.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EC_POINT_get_affine_coordinates -pthread   -o CMakeFiles/cmTC_681ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_681ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_681ff.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=EC_POINT_get_affine_coordinates -pthread    -rdynamic CMakeFiles/cmTC_681ff.dir/CheckFunctionExists.c.o  -o cmTC_681ff -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_681ff.dir/build.make:89: cmTC_681ff] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_681ff/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function TLS_client_method exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a2f7/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8a2f7.dir/build.make CMakeFiles/cmTC_8a2f7.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a2f7.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=TLS_client_method -pthread   -o CMakeFiles/cmTC_8a2f7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8a2f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a2f7.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=TLS_client_method -pthread    -rdynamic CMakeFiles/cmTC_8a2f7.dir/CheckFunctionExists.c.o  -o cmTC_8a2f7 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_8a2f7.dir/build.make:89: cmTC_8a2f7] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_8a2f7/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function TLSv1_2_client_method exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9cd49/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9cd49.dir/build.make CMakeFiles/cmTC_9cd49.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cd49.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_2_client_method -pthread   -o CMakeFiles/cmTC_9cd49.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9cd49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cd49.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_2_client_method -pthread    -rdynamic CMakeFiles/cmTC_9cd49.dir/CheckFunctionExists.c.o  -o cmTC_9cd49 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_9cd49.dir/build.make:89: cmTC_9cd49] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_9cd49/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test LWS_HAVE_PIPE2 failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd3be/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bd3be.dir/build.make CMakeFiles/cmTC_bd3be.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd3be.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DLWS_HAVE_PIPE2 -pthread   -o CMakeFiles/cmTC_bd3be.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bd3be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd3be.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DLWS_HAVE_PIPE2 -pthread    -rdynamic CMakeFiles/cmTC_bd3be.dir/src.c.o  -o cmTC_bd3be -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_bd3be.dir/build.make:89: cmTC_bd3be] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_bd3be/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE
+#include <unistd.h>
+int main(void) {int fd[2];
+ return pipe2(fd, 0);
+}
+
+Performing C SOURCE FILE Test LWS_HAVE_MBEDTLS_NET_SOCKETS failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11784/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_11784.dir/build.make CMakeFiles/cmTC_11784.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11784.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DLWS_HAVE_MBEDTLS_NET_SOCKETS -pthread   -o CMakeFiles/cmTC_11784.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:33: fatal error: mbedtls/net_sockets.h: No such file or directory
+ #include <mbedtls/net_sockets.h>
+                                 ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_11784.dir/build.make:66: CMakeFiles/cmTC_11784.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_11784/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <mbedtls/net_sockets.h>
+int main(void) { return 0;}
+
+Performing C SOURCE FILE Test LWS_HAVE_TCP_USER_TIMEOUT failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04990/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_04990.dir/build.make CMakeFiles/cmTC_04990.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04990.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g  -Wall -g   -pthread -DLWS_HAVE_TCP_USER_TIMEOUT -pthread   -o CMakeFiles/cmTC_04990.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:2:25: error: ‘TCP_USER_TIMEOUT’ undeclared (first use in this function)
+ int main(void) { return TCP_USER_TIMEOUT; }
+                         ^
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:2:25: note: each undeclared identifier is reported only once for each function it appears in
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:2:1: error: control reaches end of non-void function [-Werror=return-type]
+ int main(void) { return TCP_USER_TIMEOUT; }
+ ^
+cc1: all warnings being treated as errors
+make[2]: *** [CMakeFiles/cmTC_04990.dir/build.make:66: CMakeFiles/cmTC_04990.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_04990/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <netinet/tcp.h>
+int main(void) { return TCP_USER_TIMEOUT; }
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_041b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_041b4.dir/build.make CMakeFiles/cmTC_041b4.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_041b4.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=_snprintf   -o CMakeFiles/cmTC_041b4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_041b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_041b4.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=_snprintf    -rdynamic CMakeFiles/cmTC_041b4.dir/CheckFunctionExists.c.o  -o cmTC_041b4 
+CMakeFiles/cmTC_041b4.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_snprintf'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_041b4.dir/build.make:87: cmTC_041b4] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_041b4/fast] Error 2
+
+
+Determining if the function _vsnprintf exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23015/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23015.dir/build.make CMakeFiles/cmTC_23015.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23015.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=_vsnprintf   -o CMakeFiles/cmTC_23015.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23015
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23015.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=_vsnprintf    -rdynamic CMakeFiles/cmTC_23015.dir/CheckFunctionExists.c.o  -o cmTC_23015 
+CMakeFiles/cmTC_23015.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_vsnprintf'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_23015.dir/build.make:87: cmTC_23015] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_23015/fast] Error 2
+
+
+Determining if the function _atoi64 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efc23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efc23.dir/build.make CMakeFiles/cmTC_efc23.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efc23.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=_atoi64   -o CMakeFiles/cmTC_efc23.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_efc23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efc23.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=_atoi64    -rdynamic CMakeFiles/cmTC_efc23.dir/CheckFunctionExists.c.o  -o cmTC_efc23 
+CMakeFiles/cmTC_efc23.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_atoi64'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_efc23.dir/build.make:87: cmTC_efc23] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_efc23/fast] Error 2
+
+
+Determining if the function _stat32i64 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b822/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b822.dir/build.make CMakeFiles/cmTC_9b822.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b822.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=_stat32i64   -o CMakeFiles/cmTC_9b822.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9b822
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b822.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=_stat32i64    -rdynamic CMakeFiles/cmTC_9b822.dir/CheckFunctionExists.c.o  -o cmTC_9b822 
+CMakeFiles/cmTC_9b822.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_stat32i64'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_9b822.dir/build.make:87: cmTC_9b822] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9b822/fast] Error 2
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c108/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c108.dir/build.make CMakeFiles/cmTC_6c108.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c108.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_6c108.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c108.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_6c108.dir/CheckFunctionExists.c.o  -o cmTC_6c108 
+CMakeFiles/cmTC_6c108.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `clock_gettime'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6c108.dir/build.make:87: cmTC_6c108] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6c108/fast] Error 2
+
+
+Determining if the include file in6addr.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_154e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_154e3.dir/build.make CMakeFiles/cmTC_154e3.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_154e3.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11    -o CMakeFiles/cmTC_154e3.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: in6addr.h: No such file or directory
+ #include <in6addr.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_154e3.dir/build.make:66: CMakeFiles/cmTC_154e3.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_154e3/fast] Error 2
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2da3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2da3b.dir/build.make CMakeFiles/cmTC_2da3b.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2da3b.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11    -o CMakeFiles/cmTC_2da3b.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: sys/sockio.h: No such file or directory
+ #include <sys/sockio.h>
+                        ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_2da3b.dir/build.make:66: CMakeFiles/cmTC_2da3b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2da3b/fast] Error 2
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72a30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72a30.dir/build.make CMakeFiles/cmTC_72a30.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72a30.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11    -o CMakeFiles/cmTC_72a30.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: vfork.h: No such file or directory
+ #include <vfork.h>
+                   ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_72a30.dir/build.make:66: CMakeFiles/cmTC_72a30.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_72a30/fast] Error 2
+
+
+Determining if the include file sys/capability.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fdfa5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fdfa5.dir/build.make CMakeFiles/cmTC_fdfa5.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdfa5.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11    -o CMakeFiles/cmTC_fdfa5.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: sys/capability.h: No such file or directory
+ #include <sys/capability.h>
+                            ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_fdfa5.dir/build.make:66: CMakeFiles/cmTC_fdfa5.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_fdfa5/fast] Error 2
+
+
+Determining if the function cap_set_flag exists in the cap failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39108/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39108.dir/build.make CMakeFiles/cmTC_39108.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39108.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=cap_set_flag   -o CMakeFiles/cmTC_39108.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39108.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc    -Wall -g -Wall -g -std=gnu11 -DCHECK_FUNCTION_EXISTS=cap_set_flag    -rdynamic CMakeFiles/cmTC_39108.dir/CheckFunctionExists.c.o  -o cmTC_39108 -lcap 
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/../lib/gcc/arm-linux-gnueabihf/4.8.3/../../../../arm-linux-gnueabihf/bin/ld: cannot find -lcap
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_39108.dir/build.make:87: cmTC_39108] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_39108/fast] Error 2
+
+
+Determining if the include file openssl/ecdh.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a60d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a60d6.dir/build.make CMakeFiles/cmTC_a60d6.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a60d6.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -pthread   -o CMakeFiles/cmTC_a60d6.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:26: fatal error: openssl/ecdh.h: No such file or directory
+ #include <openssl/ecdh.h>
+                          ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_a60d6.dir/build.make:66: CMakeFiles/cmTC_a60d6.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a60d6/fast] Error 2
+
+
+Determining if the function SSL_CTX_set1_param exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61249/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61249.dir/build.make CMakeFiles/cmTC_61249.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61249.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set1_param -pthread   -o CMakeFiles/cmTC_61249.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61249.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set1_param -pthread    -rdynamic CMakeFiles/cmTC_61249.dir/CheckFunctionExists.c.o  -o cmTC_61249 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_61249.dir/build.make:89: cmTC_61249] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_61249/fast] Error 2
+
+
+Determining if the function SSL_set_info_callback exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48bef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48bef.dir/build.make CMakeFiles/cmTC_48bef.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48bef.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_info_callback -pthread   -o CMakeFiles/cmTC_48bef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48bef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48bef.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_info_callback -pthread    -rdynamic CMakeFiles/cmTC_48bef.dir/CheckFunctionExists.c.o  -o cmTC_48bef -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_48bef.dir/build.make:89: cmTC_48bef] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_48bef/fast] Error 2
+
+
+Determining if the function X509_VERIFY_PARAM_set1_host exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2833/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2833.dir/build.make CMakeFiles/cmTC_c2833.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2833.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=X509_VERIFY_PARAM_set1_host -pthread   -o CMakeFiles/cmTC_c2833.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c2833
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2833.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=X509_VERIFY_PARAM_set1_host -pthread    -rdynamic CMakeFiles/cmTC_c2833.dir/CheckFunctionExists.c.o  -o cmTC_c2833 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c2833.dir/build.make:89: cmTC_c2833] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c2833/fast] Error 2
+
+
+Determining if the function RSA_set0_key exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef811/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef811.dir/build.make CMakeFiles/cmTC_ef811.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef811.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=RSA_set0_key -pthread   -o CMakeFiles/cmTC_ef811.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef811
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef811.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=RSA_set0_key -pthread    -rdynamic CMakeFiles/cmTC_ef811.dir/CheckFunctionExists.c.o  -o cmTC_ef811 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ef811.dir/build.make:89: cmTC_ef811] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ef811/fast] Error 2
+
+
+Determining if the function X509_get_key_usage exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04fb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04fb3.dir/build.make CMakeFiles/cmTC_04fb3.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04fb3.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=X509_get_key_usage -pthread   -o CMakeFiles/cmTC_04fb3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04fb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04fb3.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=X509_get_key_usage -pthread    -rdynamic CMakeFiles/cmTC_04fb3.dir/CheckFunctionExists.c.o  -o cmTC_04fb3 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_04fb3.dir/build.make:89: cmTC_04fb3] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_04fb3/fast] Error 2
+
+
+Determining if the function EVP_PKEY_new_raw_private_key exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6e9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6e9a.dir/build.make CMakeFiles/cmTC_a6e9a.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6e9a.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_PKEY_new_raw_private_key -pthread   -o CMakeFiles/cmTC_a6e9a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a6e9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6e9a.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_PKEY_new_raw_private_key -pthread    -rdynamic CMakeFiles/cmTC_a6e9a.dir/CheckFunctionExists.c.o  -o cmTC_a6e9a -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a6e9a.dir/build.make:89: cmTC_a6e9a] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a6e9a/fast] Error 2
+
+
+Determining if the function SSL_CTX_get0_certificate exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b69a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b69a.dir/build.make CMakeFiles/cmTC_2b69a.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b69a.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_get0_certificate -pthread   -o CMakeFiles/cmTC_2b69a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b69a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b69a.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_get0_certificate -pthread    -rdynamic CMakeFiles/cmTC_2b69a.dir/CheckFunctionExists.c.o  -o cmTC_2b69a -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_2b69a.dir/build.make:89: cmTC_2b69a] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2b69a/fast] Error 2
+
+
+Determining if the function SSL_get0_alpn_selected exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34eaa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34eaa.dir/build.make CMakeFiles/cmTC_34eaa.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34eaa.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_get0_alpn_selected -pthread   -o CMakeFiles/cmTC_34eaa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34eaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34eaa.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_get0_alpn_selected -pthread    -rdynamic CMakeFiles/cmTC_34eaa.dir/CheckFunctionExists.c.o  -o cmTC_34eaa -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_34eaa.dir/build.make:89: cmTC_34eaa] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_34eaa/fast] Error 2
+
+
+Determining if the function SSL_set_alpn_protos exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67e6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67e6d.dir/build.make CMakeFiles/cmTC_67e6d.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67e6d.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_alpn_protos -pthread   -o CMakeFiles/cmTC_67e6d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67e6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67e6d.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_set_alpn_protos -pthread    -rdynamic CMakeFiles/cmTC_67e6d.dir/CheckFunctionExists.c.o  -o cmTC_67e6d -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_67e6d.dir/build.make:89: cmTC_67e6d] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_67e6d/fast] Error 2
+
+
+Determining if the function EVP_aes_128_cfb8 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db4a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db4a6.dir/build.make CMakeFiles/cmTC_db4a6.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db4a6.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_cfb8 -pthread   -o CMakeFiles/cmTC_db4a6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db4a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db4a6.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_cfb8 -pthread    -rdynamic CMakeFiles/cmTC_db4a6.dir/CheckFunctionExists.c.o  -o cmTC_db4a6 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_db4a6.dir/build.make:89: cmTC_db4a6] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_db4a6/fast] Error 2
+
+
+Determining if the function EVP_aes_128_cfb128 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3576/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3576.dir/build.make CMakeFiles/cmTC_c3576.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3576.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_cfb128 -pthread   -o CMakeFiles/cmTC_c3576.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3576.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_cfb128 -pthread    -rdynamic CMakeFiles/cmTC_c3576.dir/CheckFunctionExists.c.o  -o cmTC_c3576 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c3576.dir/build.make:89: cmTC_c3576] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c3576/fast] Error 2
+
+
+Determining if the function EVP_aes_192_cfb8 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd174/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd174.dir/build.make CMakeFiles/cmTC_bd174.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd174.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_192_cfb8 -pthread   -o CMakeFiles/cmTC_bd174.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bd174
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd174.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_192_cfb8 -pthread    -rdynamic CMakeFiles/cmTC_bd174.dir/CheckFunctionExists.c.o  -o cmTC_bd174 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_bd174.dir/build.make:89: cmTC_bd174] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bd174/fast] Error 2
+
+
+Determining if the function EVP_aes_192_cfb128 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34927/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34927.dir/build.make CMakeFiles/cmTC_34927.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34927.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_192_cfb128 -pthread   -o CMakeFiles/cmTC_34927.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34927
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34927.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_192_cfb128 -pthread    -rdynamic CMakeFiles/cmTC_34927.dir/CheckFunctionExists.c.o  -o cmTC_34927 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_34927.dir/build.make:89: cmTC_34927] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_34927/fast] Error 2
+
+
+Determining if the function EVP_aes_256_cfb8 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1075e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1075e.dir/build.make CMakeFiles/cmTC_1075e.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1075e.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_256_cfb8 -pthread   -o CMakeFiles/cmTC_1075e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1075e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1075e.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_256_cfb8 -pthread    -rdynamic CMakeFiles/cmTC_1075e.dir/CheckFunctionExists.c.o  -o cmTC_1075e -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1075e.dir/build.make:89: cmTC_1075e] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1075e/fast] Error 2
+
+
+Determining if the function EVP_aes_256_cfb128 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ae67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ae67.dir/build.make CMakeFiles/cmTC_6ae67.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ae67.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_256_cfb128 -pthread   -o CMakeFiles/cmTC_6ae67.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6ae67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ae67.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_256_cfb128 -pthread    -rdynamic CMakeFiles/cmTC_6ae67.dir/CheckFunctionExists.c.o  -o cmTC_6ae67 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6ae67.dir/build.make:89: cmTC_6ae67] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6ae67/fast] Error 2
+
+
+Determining if the function EVP_aes_128_xts exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbebf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbebf.dir/build.make CMakeFiles/cmTC_dbebf.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbebf.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_xts -pthread   -o CMakeFiles/cmTC_dbebf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dbebf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbebf.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_xts -pthread    -rdynamic CMakeFiles/cmTC_dbebf.dir/CheckFunctionExists.c.o  -o cmTC_dbebf -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_dbebf.dir/build.make:89: cmTC_dbebf] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dbebf/fast] Error 2
+
+
+Determining if the function RSA_verify_pss_mgf1 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_566b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_566b3.dir/build.make CMakeFiles/cmTC_566b3.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_566b3.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=RSA_verify_pss_mgf1 -pthread   -o CMakeFiles/cmTC_566b3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_566b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_566b3.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=RSA_verify_pss_mgf1 -pthread    -rdynamic CMakeFiles/cmTC_566b3.dir/CheckFunctionExists.c.o  -o cmTC_566b3 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_566b3.dir/build.make:89: cmTC_566b3] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_566b3/fast] Error 2
+
+
+Determining if the function HMAC_CTX_new exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79389/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79389.dir/build.make CMakeFiles/cmTC_79389.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79389.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=HMAC_CTX_new -pthread   -o CMakeFiles/cmTC_79389.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_79389
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79389.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=HMAC_CTX_new -pthread    -rdynamic CMakeFiles/cmTC_79389.dir/CheckFunctionExists.c.o  -o cmTC_79389 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_79389.dir/build.make:89: cmTC_79389] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_79389/fast] Error 2
+
+
+Determining if the function SSL_CTX_set_ciphersuites exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed5fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed5fe.dir/build.make CMakeFiles/cmTC_ed5fe.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed5fe.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set_ciphersuites -pthread   -o CMakeFiles/cmTC_ed5fe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ed5fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed5fe.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=SSL_CTX_set_ciphersuites -pthread    -rdynamic CMakeFiles/cmTC_ed5fe.dir/CheckFunctionExists.c.o  -o cmTC_ed5fe -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ed5fe.dir/build.make:89: cmTC_ed5fe] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ed5fe/fast] Error 2
+
+
+Performing C SOURCE FILE Test LWS_HAVE_SSL_EXTRA_CHAIN_CERTS failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96db9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96db9.dir/build.make CMakeFiles/cmTC_96db9.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96db9.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DLWS_HAVE_SSL_EXTRA_CHAIN_CERTS -pthread   -o CMakeFiles/cmTC_96db9.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:25: fatal error: openssl/ssl.h: No such file or directory
+ #include <openssl/ssl.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_96db9.dir/build.make:66: CMakeFiles/cmTC_96db9.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_96db9/fast] Error 2
+
+Source file was:
+#include <openssl/ssl.h>
+int main(void) { STACK_OF(X509) *c = NULL; SSL_CTX *ctx = NULL; return (int)SSL_CTX_get_extra_chain_certs_only(ctx, &c); }
+
+Performing C SOURCE FILE Test LWS_HAVE_EVP_MD_CTX_free failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf1ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf1ea.dir/build.make CMakeFiles/cmTC_cf1ea.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf1ea.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DLWS_HAVE_EVP_MD_CTX_free -pthread   -o CMakeFiles/cmTC_cf1ea.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:25: fatal error: openssl/ssl.h: No such file or directory
+ #include <openssl/ssl.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_cf1ea.dir/build.make:66: CMakeFiles/cmTC_cf1ea.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_cf1ea/fast] Error 2
+
+Source file was:
+#include <openssl/ssl.h>
+int main(void) { EVP_MD_CTX *md_ctx = NULL; EVP_MD_CTX_free(md_ctx); return 0; }
+
+Determining if the function ECDSA_SIG_set0 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8268f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8268f.dir/build.make CMakeFiles/cmTC_8268f.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8268f.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=ECDSA_SIG_set0 -pthread   -o CMakeFiles/cmTC_8268f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8268f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8268f.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=ECDSA_SIG_set0 -pthread    -rdynamic CMakeFiles/cmTC_8268f.dir/CheckFunctionExists.c.o  -o cmTC_8268f -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8268f.dir/build.make:89: cmTC_8268f] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8268f/fast] Error 2
+
+
+Determining if the function BN_bn2binpad exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d4f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d4f2.dir/build.make CMakeFiles/cmTC_9d4f2.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d4f2.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=BN_bn2binpad -pthread   -o CMakeFiles/cmTC_9d4f2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9d4f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d4f2.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=BN_bn2binpad -pthread    -rdynamic CMakeFiles/cmTC_9d4f2.dir/CheckFunctionExists.c.o  -o cmTC_9d4f2 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_9d4f2.dir/build.make:89: cmTC_9d4f2] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9d4f2/fast] Error 2
+
+
+Determining if the function EVP_aes_128_wrap exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d65f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d65f.dir/build.make CMakeFiles/cmTC_0d65f.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d65f.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_wrap -pthread   -o CMakeFiles/cmTC_0d65f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0d65f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d65f.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EVP_aes_128_wrap -pthread    -rdynamic CMakeFiles/cmTC_0d65f.dir/CheckFunctionExists.c.o  -o cmTC_0d65f -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0d65f.dir/build.make:89: cmTC_0d65f] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0d65f/fast] Error 2
+
+
+Determining if the function EC_POINT_get_affine_coordinates exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0551b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0551b.dir/build.make CMakeFiles/cmTC_0551b.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0551b.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EC_POINT_get_affine_coordinates -pthread   -o CMakeFiles/cmTC_0551b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0551b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0551b.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=EC_POINT_get_affine_coordinates -pthread    -rdynamic CMakeFiles/cmTC_0551b.dir/CheckFunctionExists.c.o  -o cmTC_0551b -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0551b.dir/build.make:89: cmTC_0551b] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0551b/fast] Error 2
+
+
+Determining if the function TLS_client_method exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ac2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ac2e.dir/build.make CMakeFiles/cmTC_8ac2e.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ac2e.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=TLS_client_method -pthread   -o CMakeFiles/cmTC_8ac2e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ac2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ac2e.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=TLS_client_method -pthread    -rdynamic CMakeFiles/cmTC_8ac2e.dir/CheckFunctionExists.c.o  -o cmTC_8ac2e -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8ac2e.dir/build.make:89: cmTC_8ac2e] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8ac2e/fast] Error 2
+
+
+Determining if the function TLSv1_2_client_method exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94294/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94294.dir/build.make CMakeFiles/cmTC_94294.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94294.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_2_client_method -pthread   -o CMakeFiles/cmTC_94294.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94294
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94294.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_2_client_method -pthread    -rdynamic CMakeFiles/cmTC_94294.dir/CheckFunctionExists.c.o  -o cmTC_94294 -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_94294.dir/build.make:89: cmTC_94294] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_94294/fast] Error 2
+
+
+Performing C SOURCE FILE Test LWS_HAVE_PIPE2 failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bd2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bd2d.dir/build.make CMakeFiles/cmTC_3bd2d.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bd2d.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DLWS_HAVE_PIPE2 -pthread   -o CMakeFiles/cmTC_3bd2d.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3bd2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd2d.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DLWS_HAVE_PIPE2 -pthread    -rdynamic CMakeFiles/cmTC_3bd2d.dir/src.c.o  -o cmTC_3bd2d -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lssl -lcrypto -lm -ldl -ldl 
+/usr/lib/x86_64-linux-gnu/libssl.so: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_3bd2d.dir/build.make:89: cmTC_3bd2d] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3bd2d/fast] Error 2
+
+Source file was:
+#define _GNU_SOURCE
+#include <unistd.h>
+int main(void) {int fd[2];
+ return pipe2(fd, 0);
+}
+
+Performing C SOURCE FILE Test LWS_HAVE_MBEDTLS_NET_SOCKETS failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38497/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38497.dir/build.make CMakeFiles/cmTC_38497.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38497.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DLWS_HAVE_MBEDTLS_NET_SOCKETS -pthread   -o CMakeFiles/cmTC_38497.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:33: fatal error: mbedtls/net_sockets.h: No such file or directory
+ #include <mbedtls/net_sockets.h>
+                                 ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_38497.dir/build.make:66: CMakeFiles/cmTC_38497.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_38497/fast] Error 2
+
+Source file was:
+#include <mbedtls/net_sockets.h>
+int main(void) { return 0;}
+
+Performing C SOURCE FILE Test LWS_HAVE_TCP_USER_TIMEOUT failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a970e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a970e.dir/build.make CMakeFiles/cmTC_a970e.dir/build
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a970e.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers    -Wall -g -Wall -g -std=gnu11  -pthread -DLWS_HAVE_TCP_USER_TIMEOUT -pthread   -o CMakeFiles/cmTC_a970e.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:2:25: error: ‘TCP_USER_TIMEOUT’ undeclared (first use in this function)
+ int main(void) { return TCP_USER_TIMEOUT; }
+                         ^
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:2:25: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_a970e.dir/build.make:66: CMakeFiles/cmTC_a970e.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a970e/fast] Error 2
+
+Source file was:
+#include <netinet/tcp.h>
+int main(void) { return TCP_USER_TIMEOUT; }
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fd7e/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7fd7e.dir/build.make CMakeFiles/cmTC_7fd7e.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fd7e.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99 -DCHECK_FUNCTION_EXISTS=_snprintf   -o CMakeFiles/cmTC_7fd7e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7fd7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fd7e.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot   -Wall -g -std=gnu99 -DCHECK_FUNCTION_EXISTS=_snprintf    -rdynamic CMakeFiles/cmTC_7fd7e.dir/CheckFunctionExists.c.o  -o cmTC_7fd7e 
+CMakeFiles/cmTC_7fd7e.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_snprintf'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_7fd7e.dir/build.make:87: cmTC_7fd7e] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_7fd7e/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _vsnprintf exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2f11/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f2f11.dir/build.make CMakeFiles/cmTC_f2f11.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2f11.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99 -DCHECK_FUNCTION_EXISTS=_vsnprintf   -o CMakeFiles/cmTC_f2f11.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2f11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2f11.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot   -Wall -g -std=gnu99 -DCHECK_FUNCTION_EXISTS=_vsnprintf    -rdynamic CMakeFiles/cmTC_f2f11.dir/CheckFunctionExists.c.o  -o cmTC_f2f11 
+CMakeFiles/cmTC_f2f11.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_vsnprintf'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_f2f11.dir/build.make:87: cmTC_f2f11] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_f2f11/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _atoi64 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fda7/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2fda7.dir/build.make CMakeFiles/cmTC_2fda7.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fda7.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99 -DCHECK_FUNCTION_EXISTS=_atoi64   -o CMakeFiles/cmTC_2fda7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2fda7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fda7.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot   -Wall -g -std=gnu99 -DCHECK_FUNCTION_EXISTS=_atoi64    -rdynamic CMakeFiles/cmTC_2fda7.dir/CheckFunctionExists.c.o  -o cmTC_2fda7 
+CMakeFiles/cmTC_2fda7.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_atoi64'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_2fda7.dir/build.make:87: cmTC_2fda7] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_2fda7/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function _stat32i64 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20c47/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_20c47.dir/build.make CMakeFiles/cmTC_20c47.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20c47.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99 -DCHECK_FUNCTION_EXISTS=_stat32i64   -o CMakeFiles/cmTC_20c47.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_20c47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20c47.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot   -Wall -g -std=gnu99 -DCHECK_FUNCTION_EXISTS=_stat32i64    -rdynamic CMakeFiles/cmTC_20c47.dir/CheckFunctionExists.c.o  -o cmTC_20c47 
+CMakeFiles/cmTC_20c47.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `_stat32i64'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_20c47.dir/build.make:87: cmTC_20c47] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_20c47/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file in6addr.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb169/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eb169.dir/build.make CMakeFiles/cmTC_eb169.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb169.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99    -o CMakeFiles/cmTC_eb169.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: in6addr.h: No such file or directory
+ #include <in6addr.h>
+                     ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_eb169.dir/build.make:66: CMakeFiles/cmTC_eb169.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_eb169/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1444f/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1444f.dir/build.make CMakeFiles/cmTC_1444f.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1444f.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99    -o CMakeFiles/cmTC_1444f.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: sys/sockio.h: No such file or directory
+ #include <sys/sockio.h>
+                        ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_1444f.dir/build.make:66: CMakeFiles/cmTC_1444f.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_1444f/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f67b/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0f67b.dir/build.make CMakeFiles/cmTC_0f67b.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f67b.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99    -o CMakeFiles/cmTC_0f67b.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: vfork.h: No such file or directory
+ #include <vfork.h>
+                   ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_0f67b.dir/build.make:66: CMakeFiles/cmTC_0f67b.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_0f67b/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/capability.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53ccd/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_53ccd.dir/build.make CMakeFiles/cmTC_53ccd.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53ccd.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99    -o CMakeFiles/cmTC_53ccd.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: sys/capability.h: No such file or directory
+ #include <sys/capability.h>
+                            ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_53ccd.dir/build.make:66: CMakeFiles/cmTC_53ccd.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_53ccd/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function RSA_verify_pss_mgf1 exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4eee0/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4eee0.dir/build.make CMakeFiles/cmTC_4eee0.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4eee0.dir/CheckFunctionExists.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -Wall -g -std=gnu99  -pthread -DCHECK_FUNCTION_EXISTS=RSA_verify_pss_mgf1 -pthread   -o CMakeFiles/cmTC_4eee0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4eee0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eee0.dir/link.txt --verbose=1
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -Wall -g -std=gnu99  -pthread -DCHECK_FUNCTION_EXISTS=RSA_verify_pss_mgf1 -pthread    -rdynamic CMakeFiles/cmTC_4eee0.dir/CheckFunctionExists.c.o  -o cmTC_4eee0 /home/abobco/RaspberryPi/sysroot/usr/lib/arm-linux-gnueabihf/libssl.so /home/abobco/RaspberryPi/sysroot/usr/lib/arm-linux-gnueabihf/libcrypto.so -lssl -lcrypto -lm -lcap -ldl 
+CMakeFiles/cmTC_4eee0.dir/CheckFunctionExists.c.o: In function `main':
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:17: undefined reference to `RSA_verify_pss_mgf1'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_4eee0.dir/build.make:89: cmTC_4eee0] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_4eee0/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test LWS_HAVE_MBEDTLS_NET_SOCKETS failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9809/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e9809.dir/build.make CMakeFiles/cmTC_e9809.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9809.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -Wall -g -std=gnu99  -pthread -DLWS_HAVE_MBEDTLS_NET_SOCKETS -pthread   -o CMakeFiles/cmTC_e9809.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:33: fatal error: mbedtls/net_sockets.h: No such file or directory
+ #include <mbedtls/net_sockets.h>
+                                 ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_e9809.dir/build.make:66: CMakeFiles/cmTC_e9809.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_e9809/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <mbedtls/net_sockets.h>
+int main(void) { return 0;}
+
+Determining if the include file in6addr.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08e48/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_08e48.dir/build.make CMakeFiles/cmTC_08e48.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08e48.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99    -o CMakeFiles/cmTC_08e48.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: in6addr.h: No such file or directory
+ #include <in6addr.h>
+                     ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_08e48.dir/build.make:66: CMakeFiles/cmTC_08e48.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_08e48/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ade27/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ade27.dir/build.make CMakeFiles/cmTC_ade27.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ade27.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99    -o CMakeFiles/cmTC_ade27.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: sys/sockio.h: No such file or directory
+ #include <sys/sockio.h>
+                        ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_ade27.dir/build.make:66: CMakeFiles/cmTC_ade27.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_ade27/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92404/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_92404.dir/build.make CMakeFiles/cmTC_92404.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92404.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99    -o CMakeFiles/cmTC_92404.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: vfork.h: No such file or directory
+ #include <vfork.h>
+                   ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_92404.dir/build.make:66: CMakeFiles/cmTC_92404.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_92404/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/capability.h exists failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3448d/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3448d.dir/build.make CMakeFiles/cmTC_3448d.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3448d.dir/CheckIncludeFile.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -g -std=gnu99    -o CMakeFiles/cmTC_3448d.dir/CheckIncludeFile.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: sys/capability.h: No such file or directory
+ #include <sys/capability.h>
+                            ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_3448d.dir/build.make:66: CMakeFiles/cmTC_3448d.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_3448d/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test LWS_HAVE_MBEDTLS_NET_SOCKETS failed with the following output:
+Change Dir: /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4378/fast"
+make[1]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a4378.dir/build.make CMakeFiles/cmTC_a4378.dir/build
+make[2]: Entering directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4378.dir/src.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc --sysroot=/home/abobco/RaspberryPi/sysroot -DKEYWORD=__inline  -Wall -Wsign-compare -Wstrict-aliasing -Wuninitialized -Werror -fvisibility=hidden -Wundef  -Wtype-limits -Wignored-qualifiers   -Wall -g -std=gnu99  -pthread -DLWS_HAVE_MBEDTLS_NET_SOCKETS -pthread   -o CMakeFiles/cmTC_a4378.dir/src.c.o   -c /home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c
+/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp/src.c:1:33: fatal error: mbedtls/net_sockets.h: No such file or directory
+ #include <mbedtls/net_sockets.h>
+                                 ^
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_a4378.dir/build.make:66: CMakeFiles/cmTC_a4378.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_a4378/fast] Error 2
+make[1]: Leaving directory '/home/abobco/RaspberryPi/OCV_Projects/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <mbedtls/net_sockets.h>
+int main(void) { return 0;}
+

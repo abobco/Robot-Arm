@@ -1,0 +1,2 @@
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ar qc librobolib.a  CMakeFiles/robolib.dir/src/ws/message_queue.c.o CMakeFiles/robolib.dir/SPI_Camera/src/EZCAM.c.o CMakeFiles/robolib.dir/SPI_Camera/src/ArduCAM.c.o CMakeFiles/robolib.dir/SPI_Camera/src/bcm283x_board_driver.c.o CMakeFiles/robolib.dir/SPI_Camera/src/sccb_bus.c.o
+/home/abobco/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ranlib librobolib.a

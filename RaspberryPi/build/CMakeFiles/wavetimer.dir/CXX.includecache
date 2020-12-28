@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abobco/RaspberryPi/OCV_Projects/src/wavetimer.cpp
+stdio.h
+-
+iostream
+-
+pigpio.h
+-
+
+/home/abobco/RaspberryPi/pigpio-master/install/include/pigpio.h
+stdint.h
+-
+pthread.h
+-
+stdio.h
+-
+pigpio.h
+-
+stdio.h
+-
+pigpio.h
+/home/abobco/RaspberryPi/pigpio-master/install/include/pigpio.h
+stdio.h
+-
+pigpio.h
+-
+stdio.h
+-
+pigpio.h
+-
+stdio.h
+-
+pigpio.h
+-
+
