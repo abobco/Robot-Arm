@@ -4,7 +4,7 @@ WIP project for controlling a 5 DOF robotic arm with computer vision.
 
 ![arm](videos/arm.gif)
 
-The arm consists of 6 servo motors and a camera, which are controlled with a raspberry pi zero W and a windows laptop. The raspberry pi functions as a microcontroller, sending and receiving signals to the motors and camera. Because the raspberry pi would take a very long time to perform object detection on these images, they are instead sent to a more powerful computer(my laptop) via a TCP socket. This computer evaluates a convolutional neural network to classify objects in this photo, and if the requested object label is found (such as "bottle"), the predicted position of this object is sent back to the microcontroller to be picked up by the arm.
+The arm consists of 6 servo motors and a camera, which are controlled with a raspberry pi zero W and a windows laptop. The raspberry pi functions as a microcontroller, sending and receiving signals to the motors and camera. Because the raspberry pi would take a very long time to perform object detection on the images from the camera, they are instead sent to a more powerful computer(my laptop) via a TCP socket. This computer evaluates a convolutional neural network to classify objects in this photo, and if the requested object label is found (such as "bottle"), the predicted position of this object is sent back to the microcontroller to be picked up by the arm.
 
 The basic process:
 
